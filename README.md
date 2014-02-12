@@ -49,8 +49,13 @@ SCSlidingCell реализует функционал ячеек со слайд
 	NSLog(@"скроллинг закончился на такой то ячейке");
 }
 ```
-Пример: в случае динамического создания ячеек
+Свойства
 ----
+
+`alignment` - выравнивание при прокрутке (`SCSlidingCellViewAligmentLeft`, `SCSlidingCellViewAligmentCenter`, `SCSlidingCellViewAligmentRight`)
+
+Пример: в случае динамического создания ячеек
+------
 ```
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
