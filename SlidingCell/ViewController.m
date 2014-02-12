@@ -29,12 +29,7 @@
 {
     [super viewDidLoad];
     data = @[@"first slide",@"second slide",@"third slide",@"final"];
-    
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
- 
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+
 }
 
 - (void)didReceiveMemoryWarning
@@ -68,7 +63,7 @@
     cell.dataSource = self;
     cell.delegate = self;
     cell.alignment = SCSlidingCellViewAligmentCenter;
-//    [cell loadSlides];
+    
     return cell;
 }
 

@@ -30,11 +30,6 @@
     scrollView = [[UIScrollView alloc] initWithFrame:self.bounds];
     scrollView.delegate = self;
     
-//    [scrollView.superview addConstraint:[NSLayoutConstraint constraintWithItem:scrollView attribute:NSLayoutAttributeWidth relatedBy:NSLayoutRelationEqual toItem:scrollView.superview attribute:NSLayoutAttributeWidth multiplier:1.0 constant:0]];
-//    [scrollView.superview addConstraint:[NSLayoutConstraint constraintWithItem:scrollView attribute:NSLayoutAttributeHeight relatedBy:NSLayoutRelationEqual toItem:self attribute:NSLayoutAttributeHeight multiplier:1.0 constant:0]];
-//    [scrollView.superview addConstraint:[NSLayoutConstraint constraintWithItem:scrollView attribute:NSLayoutAttributeLeft relatedBy:NSLayoutRelationEqual toItem:scrollView.superview attribute:NSLayoutAttributeLeft multiplier:1.0 constant:0.0]];
-//    [scrollView.superview addConstraint:[NSLayoutConstraint constraintWithItem:scrollView attribute:NSLayoutAttributeRight relatedBy:NSLayoutRelationEqual toItem:scrollView.superview attribute:NSLayoutAttributeRight multiplier:1.0 constant:0.0]];
-//    
     [scrollView setTranslatesAutoresizingMaskIntoConstraints:NO];
     [scrollView setAutoresizingMask:UIViewAutoresizingFlexibleWidth];
 
@@ -108,8 +103,7 @@
     if (offsetPoint.x < 0) offsetPoint.x = 0;
     //blank space from right
     if ((offsetPoint.x + scrollViewWidth) > scrollView.contentSize.width) offsetPoint.x -= (offsetPoint.x + scrollViewWidth) - scrollView.contentSize.width;
-    NSLog(@"%f", offsetPoint.x);
-    NSLog(@"%f", scrollView.contentSize.width);
+
     [scrollView setContentOffset:offsetPoint animated:YES];
     
     if ([self.delegate respondsToSelector:@selector(slidingCell:didSelectedView:)]) {
@@ -128,8 +122,6 @@
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated
 {
     [super setSelected:selected animated:animated];
-
-    // Configure the view for the selected state
 }
 
 -(id)init
