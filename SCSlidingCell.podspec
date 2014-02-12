@@ -4,7 +4,6 @@
 #
 #  To learn more about Podspec attributes see http://docs.cocoapods.org/specification.html
 #  To see working Podspecs in the CocoaPods repo see https://github.com/CocoaPods/Specs/
-#
 
 Pod::Spec.new do |s|
 
@@ -18,7 +17,6 @@ Pod::Spec.new do |s|
   s.author             = { "Alexey Bondarenko" => "alexeybondarenko@me.com" }
   s.social_media_url = "https://twitter.com/BonOleksiy"
 
-  # s.platform     = :ios
   s.platform     = :ios, '5.0'
 
   s.source       = { :git => "https://github.com/alexeybondarenko/SCSlidingCell.git", :tag => "0.5" }
