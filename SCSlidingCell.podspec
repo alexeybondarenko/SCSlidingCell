@@ -16,17 +16,17 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "SCSlidingCell"
-  s.version      = "0.0.1"
+  s.version      = "0.5"
   s.summary      = "Provide sliding UITableView cells like in FB app. "
 
-  s.description  = <<-DESC
-                   A longer description of SCSlidingCell in Markdown format.
-
-                   * Think: Why did you write this? What is the focus? What does it do?
-                   * CocoaPods will be using this to generate tags, and improve search results.
-                   * Try to keep it short, snappy and to the point.
-                   * Finally, don't worry about the indent, CocoaPods strips it!
-                   DESC
+ # s.description  = <<-DESC
+ #                  A longer description of SCSlidingCell in Markdown format.
+ #
+ #                  * Think: Why did you write this? What is the focus? What does it do?
+ #                  * CocoaPods will be using this to generate tags, and improve search results.
+ #                  * Try to keep it short, snappy and to the point.
+ #                  * Finally, don't worry about the indent, CocoaPods strips it!
+ #                  DESC
 
   s.homepage     = "https://github.com/alexeybondarenko/SCSlidingCell"
   # s.screenshots  = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
@@ -39,8 +39,8 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = 'MIT (example)'
-  # s.license      = { :type => 'MIT', :file => 'FILE_LICENSE' }
+  # s.license      = 'MIT (example)'
+  s.license      = { :type => 'MIT', :file => 'LICENSE' }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -50,10 +50,10 @@ Pod::Spec.new do |s|
   #  found CocoaPods accept just the names.
   #
 
-  s.author             = { "alexeybondarenko" => "email@address.com" }
+  s.author             = { "Alexey Bondarenko" => "alexeybondarenko@me.com" }
   # s.authors          = { "alexeybondarenko" => "email@address.com", "other author" => "email@address.com" }
   # s.author           = 'alexeybondarenko', 'other author'
-  # s.social_media_url = "http://twitter.com/alexeybondarenko"
+  s.social_media_url = "https://twitter.com/BonOleksiy"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -62,7 +62,7 @@ Pod::Spec.new do |s|
   #
 
   # s.platform     = :ios
-  # s.platform     = :ios, '5.0'
+  s.platform     = :ios, '5.0'
 
   #  When using multiple platforms
   # s.ios.deployment_target = '5.0'
@@ -75,7 +75,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/alexeybondarenko/SCSlidingCell.git", :commit => "6a122f4f5f995cbde5f073253dff1d43eb405add" }
+  s.source       = { :git => "https://github.com/alexeybondarenko/SCSlidingCell.git", :tag => "0." }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -86,8 +86,8 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = 'Classes', 'Classes/**/*.{h,m}'
-  s.exclude_files = 'Classes/Exclude'
+  s.source_files  = 'SlidingCell/SlidingCell/*.{h,m}'
+  # s.exclude_files = 'Classes/Exclude'
 
   # s.public_header_files = 'Classes/**/*.h'
 
