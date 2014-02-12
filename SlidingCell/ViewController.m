@@ -60,10 +60,10 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     static NSString *CellIdentifier = @"cell";
-    SCSlidingCellView *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
+    SCSlidingCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
     if (cell == nil) {
-        cell = [[SCSlidingCellView alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
+        cell = [[SCSlidingCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
     }
     cell.dataSource = self;
     cell.delegate = self;
@@ -93,7 +93,7 @@
     return view;
 }
 
--(void)slidingCell:(SCSlidingCellView *)slidingCell didSelectedView:(UIView *)view
+-(void)slidingCell:(SCSlidingCell *)slidingCell didSelectedView:(UIView *)view
 {
     NSLog(@"View %@ was selected", view);
 }

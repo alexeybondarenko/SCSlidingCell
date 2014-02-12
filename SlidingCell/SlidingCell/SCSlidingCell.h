@@ -14,7 +14,7 @@ typedef enum : NSInteger {
     SCSlidingCellViewAligmentRight
 } SCSlidingCellViewAlignment;
 
-@class SCSlidingCellView;
+@class SCSlidingCell;
 /** Declaration SCSlidingCellView delegate protocol **/
 
 @protocol SCSlidingCellDataSource
@@ -29,11 +29,11 @@ typedef enum : NSInteger {
 @protocol SCSlidingCellDelegate <NSObject>
 
 @optional
--(void) slidingCell:(SCSlidingCellView *)slidingCell didSelectedView:(UIView *)view;
+-(void) slidingCell:(SCSlidingCell *)slidingCell didSelectedView:(UIView *)view;
 
 @end
 
-@interface SCSlidingCellView : UITableViewCell <UIScrollViewDelegate>
+@interface SCSlidingCell : UITableViewCell <UIScrollViewDelegate>
 {
     id <SCSlidingCellDelegate> delegate;
     id <SCSlidingCellDataSource> dataSource;

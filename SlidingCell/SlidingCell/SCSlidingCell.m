@@ -6,9 +6,9 @@
 //  Copyright (c) 2014 Alexey Bondarenko. All rights reserved.
 //
 
-#import "SCSlidingCellView.h"
+#import "SCSlidingCell.h"
 
-@implementation SCSlidingCellView
+@implementation SCSlidingCell
 
 @synthesize delegate, scrollView, pageControl;
 

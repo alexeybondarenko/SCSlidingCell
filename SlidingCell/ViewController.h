@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "SCSlidingCellView.h"
+#import "SCSlidingCell.h"
 
 @interface ViewController : UITableViewController <SCSlidingCellDataSource, SCSlidingCellDelegate>
 

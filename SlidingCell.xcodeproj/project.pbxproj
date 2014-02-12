@@ -18,7 +18,7 @@
 		F758845A18ABF5C300CEA1B4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F758845918ABF5C300CEA1B4 /* XCTest.framework */; };
 		F758845B18ABF5C300CEA1B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F758843718ABF5C300CEA1B4 /* Foundation.framework */; };
 		F758845C18ABF5C300CEA1B4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F758843B18ABF5C300CEA1B4 /* UIKit.framework */; };
-		F758847118ABF6DE00CEA1B4 /* SCSlidingCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = F758847018ABF6DE00CEA1B4 /* SCSlidingCellView.m */; };
+		F758847118ABF6DE00CEA1B4 /* SCSlidingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F758847018ABF6DE00CEA1B4 /* SCSlidingCell.m */; };
 		F7E8094A18ABFE3D00C31F76 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7E8094918ABFE3D00C31F76 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -47,8 +47,8 @@
 		F758845218ABF5C300CEA1B4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F758845818ABF5C300CEA1B4 /* SlidingCellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlidingCellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F758845918ABF5C300CEA1B4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		F758846F18ABF6DE00CEA1B4 /* SCSlidingCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCSlidingCellView.h; path = SlidingCell/SCSlidingCellView.h; sourceTree = "<group>"; };
-		F758847018ABF6DE00CEA1B4 /* SCSlidingCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCSlidingCellView.m; path = SlidingCell/SCSlidingCellView.m; sourceTree = "<group>"; };
+		F758846F18ABF6DE00CEA1B4 /* SCSlidingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCSlidingCell.h; path = SlidingCell/SCSlidingCell.h; sourceTree = "<group>"; };
+		F758847018ABF6DE00CEA1B4 /* SCSlidingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCSlidingCell.m; path = SlidingCell/SCSlidingCell.m; sourceTree = "<group>"; };
 		F7E8094818ABFE3D00C31F76 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		F7E8094918ABFE3D00C31F76 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -135,8 +135,8 @@
 		F758847218ABF6E200CEA1B4 /* SlidingCell */ = {
 			isa = PBXGroup;
 			children = (
-				F758846F18ABF6DE00CEA1B4 /* SCSlidingCellView.h */,
-				F758847018ABF6DE00CEA1B4 /* SCSlidingCellView.m */,
+				F758846F18ABF6DE00CEA1B4 /* SCSlidingCell.h */,
+				F758847018ABF6DE00CEA1B4 /* SCSlidingCell.m */,
 			);
 			name = SlidingCell;
 			sourceTree = "<group>";
@@ -238,7 +238,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F758847118ABF6DE00CEA1B4 /* SCSlidingCellView.m in Sources */,
+				F758847118ABF6DE00CEA1B4 /* SCSlidingCell.m in Sources */,
 				F758844818ABF5C300CEA1B4 /* SCAppDelegate.m in Sources */,
 				F7E8094A18ABFE3D00C31F76 /* ViewController.m in Sources */,
 				F758844418ABF5C300CEA1B4 /* main.m in Sources */,
