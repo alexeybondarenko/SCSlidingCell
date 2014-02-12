@@ -1,4 +1,4 @@
-## SCSlidingCell
+#SCSlidingCell
 
 SCSlidingCell реализует функционал ячеек со слайдами, как в приложении FB.
 
@@ -71,3 +71,5 @@ SCSlidingCell реализует функционал ячеек со слайд
     return cell;
 }
 ```
+##License
+Использование разрешается в соответствии с [MIT License](http://http//opensource.org/licenses/mit-license.php). Смотри подробнее в LICENSE.
