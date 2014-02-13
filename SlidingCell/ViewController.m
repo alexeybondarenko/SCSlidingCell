@@ -74,7 +74,7 @@
     return data.count;
 }
 
--(UIView *)slideViewForIndex:(NSUInteger)index withFrame:(CGRect)frame;
+-(UIView *)slideViewForCell:(SCSlidingCell *)cell withIndex:(NSUInteger)index andFrame:(CGRect)frame
 {
     CGRect viewFrame = frame;
     viewFrame.size.width = 320;

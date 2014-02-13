@@ -22,7 +22,7 @@ typedef enum : NSInteger {
 // method return count of slides in the current sliding cell
 -(NSUInteger) numberOfSlides;
 // view for slide at index.
--(UIView *) slideViewForCell:(SCSlidingCell *)cell withIndex:(NSUInteger) index andFrame:(CGRect) frame;
+-(UIView *) slideViewForIndex:(NSUInteger) index withFrame:(CGRect) frame;
 
 @end
 

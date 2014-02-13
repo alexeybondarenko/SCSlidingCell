@@ -44,8 +44,7 @@
     NSMutableArray *tempArray = [[NSMutableArray alloc]init];
     
     for (NSUInteger idx=0; idx< kCount; idx++) {
-        
-        UIView *view = [self.dataSource slideViewForCell:self withIndex:idx andFrame:self.bounds];
+        UIView *view = [self.dataSource slideViewForIndex:idx withFrame:self.bounds];
 
         CGSize prevSize = scrollView.contentSize;
         CGSize newSize = prevSize;
