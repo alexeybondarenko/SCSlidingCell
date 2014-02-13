@@ -63,6 +63,7 @@
     cell.dataSource = self;
     cell.delegate = self;
     cell.alignment = SCSlidingCellViewAligmentCenter;
+    [cell reloadSlides];
     
     return cell;
 }
