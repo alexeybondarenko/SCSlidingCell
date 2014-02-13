@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>70DD125F-32AA-4A9A-9DE3-3E34226A7E74</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SlidingCell</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>2C9D8A2D-A85F-4DC1-AB1D-AF40E19433C6</key>
+		<string>ssh://github.com/alexeybondarenko/SCSlidingCell.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SlidingCell.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>2C9D8A2D-A85F-4DC1-AB1D-AF40E19433C6</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/alexeybondarenko/SCSlidingCell.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>2C9D8A2D-A85F-4DC1-AB1D-AF40E19433C6</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2C9D8A2D-A85F-4DC1-AB1D-AF40E19433C6</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SlidingCell</string>
+		</dict>
+	</array>
+</dict>
+</plist>

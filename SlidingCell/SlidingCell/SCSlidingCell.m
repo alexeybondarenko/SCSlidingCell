@@ -9,7 +9,9 @@
 #import "SCSlidingCell.h"
 
 @implementation SCSlidingCell
-
+{
+    UIView *scrollViewContentView;
+}
 @synthesize dataSource, delegate, scrollView, pageControl;
 
 -(id)init
@@ -42,13 +44,13 @@
     [self initSlides];
 }
 - (void)initAdditionalView {
-    NSLog(@"init");
+    
     self.alignment = SCSlidingCellViewAligmentLeft;
     
     scrollView = [[UIScrollView alloc] initWithFrame:self.bounds];
     scrollView.delegate = self;
+    scrollView.clipsToBounds = YES;
     
-    [scrollView setTranslatesAutoresizingMaskIntoConstraints:NO];
     [scrollView setAutoresizingMask:UIViewAutoresizingFlexibleWidth];
     
     [[self contentView] addSubview:scrollView];
@@ -64,13 +66,15 @@
     for (NSUInteger idx=0; idx< kCount; idx++) {
         
         UIView *view = [dataSource slideViewForCell:self withIndex:idx andFrame:self.bounds];
+        view.backgroundColor = [UIColor whiteColor];
+        
         CGSize prevSize = scrollView.contentSize;
         CGSize newSize = prevSize;
-        
+
         newSize.width += view.bounds.size.width;
         CGRect viewFrame = CGRectMake(prevSize.width, 0, view.bounds.size.width, view.bounds.size.height);
         view.frame = viewFrame;
-        
+
         [scrollView setContentSize:newSize];
         [scrollView addSubview:view];
         

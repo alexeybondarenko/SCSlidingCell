@@ -52,6 +52,10 @@
     return 2;
 }
 
+-(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return 100;
+}
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     static NSString *CellIdentifier = @"cell";
@@ -86,6 +90,7 @@
     textLabel.textAlignment = NSTextAlignmentCenter;
     textLabel.text = data[index];
     [view addSubview:textLabel];
+
     return view;
 }
 
