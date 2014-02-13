@@ -10,7 +10,7 @@ SCSlidingCell реализует функционал ячеек со слайд
 2. Перейдите в папку проекта.
 3. Добавьте зависимость 
 	```
-    pod 'SCSlidingCell', :git => "https://github.com/alexeybondarenko/SCSlidingCell.git" 
+    pod 'SCSlidingCell'
     ```
 4. Установите зависимости:
     ```
