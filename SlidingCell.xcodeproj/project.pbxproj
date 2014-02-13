@@ -34,7 +34,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2E782D3F48BC401398B94BCB /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		E40A29C7FD1D4D638EEAE488 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F758843418ABF5C300CEA1B4 /* SlidingCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlidingCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F758843718ABF5C300CEA1B4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -87,7 +86,6 @@
 				F758843D18ABF5C300CEA1B4 /* SlidingCell */,
 				F758843618ABF5C300CEA1B4 /* Frameworks */,
 				F758843518ABF5C300CEA1B4 /* Products */,
-				2E782D3F48BC401398B94BCB /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -397,7 +395,6 @@
 		};
 		F758846A18ABF5C300CEA1B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2E782D3F48BC401398B94BCB /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -411,7 +408,6 @@
 		};
 		F758846B18ABF5C300CEA1B4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2E782D3F48BC401398B94BCB /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
