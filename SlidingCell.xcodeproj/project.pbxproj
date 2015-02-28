@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		30A44863FDFC41109B8AD0C2 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E40A29C7FD1D4D638EEAE488 /* libPods.a */; };
 		F758843818ABF5C300CEA1B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F758843718ABF5C300CEA1B4 /* Foundation.framework */; };
 		F758843A18ABF5C300CEA1B4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F758843918ABF5C300CEA1B4 /* CoreGraphics.framework */; };
 		F758843C18ABF5C300CEA1B4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F758843B18ABF5C300CEA1B4 /* UIKit.framework */; };
@@ -16,22 +15,9 @@
 		F758844818ABF5C300CEA1B4 /* SCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F758844718ABF5C300CEA1B4 /* SCAppDelegate.m */; };
 		F758844B18ABF5C300CEA1B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F758844918ABF5C300CEA1B4 /* Main.storyboard */; };
 		F758845318ABF5C300CEA1B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F758845218ABF5C300CEA1B4 /* Images.xcassets */; };
-		F758845A18ABF5C300CEA1B4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F758845918ABF5C300CEA1B4 /* XCTest.framework */; };
-		F758845B18ABF5C300CEA1B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F758843718ABF5C300CEA1B4 /* Foundation.framework */; };
-		F758845C18ABF5C300CEA1B4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F758843B18ABF5C300CEA1B4 /* UIKit.framework */; };
 		F758847118ABF6DE00CEA1B4 /* SCSlidingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F758847018ABF6DE00CEA1B4 /* SCSlidingCell.m */; };
 		F7E8094A18ABFE3D00C31F76 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7E8094918ABFE3D00C31F76 /* ViewController.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		F758845D18ABF5C300CEA1B4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F758842C18ABF5C300CEA1B4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F758843318ABF5C300CEA1B4;
-			remoteInfo = SlidingCell;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		E40A29C7FD1D4D638EEAE488 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,7 +33,6 @@
 		F758844718ABF5C300CEA1B4 /* SCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCAppDelegate.m; sourceTree = "<group>"; };
 		F758844A18ABF5C300CEA1B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F758845218ABF5C300CEA1B4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		F758845818ABF5C300CEA1B4 /* SlidingCellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlidingCellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F758845918ABF5C300CEA1B4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		F758846F18ABF6DE00CEA1B4 /* SCSlidingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCSlidingCell.h; path = SlidingCell/SCSlidingCell.h; sourceTree = "<group>"; };
 		F758847018ABF6DE00CEA1B4 /* SCSlidingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCSlidingCell.m; path = SlidingCell/SCSlidingCell.m; sourceTree = "<group>"; };
@@ -63,17 +48,6 @@
 				F758843A18ABF5C300CEA1B4 /* CoreGraphics.framework in Frameworks */,
 				F758843C18ABF5C300CEA1B4 /* UIKit.framework in Frameworks */,
 				F758843818ABF5C300CEA1B4 /* Foundation.framework in Frameworks */,
-				30A44863FDFC41109B8AD0C2 /* libPods.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F758845518ABF5C300CEA1B4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F758845A18ABF5C300CEA1B4 /* XCTest.framework in Frameworks */,
-				F758845C18ABF5C300CEA1B4 /* UIKit.framework in Frameworks */,
-				F758845B18ABF5C300CEA1B4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,7 +67,6 @@
 			isa = PBXGroup;
 			children = (
 				F758843418ABF5C300CEA1B4 /* SlidingCell.app */,
-				F758845818ABF5C300CEA1B4 /* SlidingCellTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -152,11 +125,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F758846918ABF5C300CEA1B4 /* Build configuration list for PBXNativeTarget "SlidingCell" */;
 			buildPhases = (
-				CA55B08250D443D09BD0F2CF /* Check Pods Manifest.lock */,
 				F758843018ABF5C300CEA1B4 /* Sources */,
 				F758843118ABF5C300CEA1B4 /* Frameworks */,
 				F758843218ABF5C300CEA1B4 /* Resources */,
-				1A91C907D5044BE9A7EB91DD /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,24 +138,6 @@
 			productReference = F758843418ABF5C300CEA1B4 /* SlidingCell.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F758845718ABF5C300CEA1B4 /* SlidingCellTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F758846C18ABF5C300CEA1B4 /* Build configuration list for PBXNativeTarget "SlidingCellTests" */;
-			buildPhases = (
-				F758845418ABF5C300CEA1B4 /* Sources */,
-				F758845518ABF5C300CEA1B4 /* Frameworks */,
-				F758845618ABF5C300CEA1B4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F758845E18ABF5C300CEA1B4 /* PBXTargetDependency */,
-			);
-			name = SlidingCellTests;
-			productName = SlidingCellTests;
-			productReference = F758845818ABF5C300CEA1B4 /* SlidingCellTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -194,11 +147,6 @@
 				CLASSPREFIX = SC;
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Alexey Bondarenko";
-				TargetAttributes = {
-					F758845718ABF5C300CEA1B4 = {
-						TestTargetID = F758843318ABF5C300CEA1B4;
-					};
-				};
 			};
 			buildConfigurationList = F758842F18ABF5C300CEA1B4 /* Build configuration list for PBXProject "SlidingCell" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -214,7 +162,6 @@
 			projectRoot = "";
 			targets = (
 				F758843318ABF5C300CEA1B4 /* SlidingCell */,
-				F758845718ABF5C300CEA1B4 /* SlidingCellTests */,
 			);
 		};
 /* End PBXProject section */
@@ -230,47 +177,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F758845618ABF5C300CEA1B4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		1A91C907D5044BE9A7EB91DD /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		CA55B08250D443D09BD0F2CF /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F758843018ABF5C300CEA1B4 /* Sources */ = {
@@ -284,22 +191,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F758845418ABF5C300CEA1B4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		F758845E18ABF5C300CEA1B4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F758843318ABF5C300CEA1B4 /* SlidingCell */;
-			targetProxy = F758845D18ABF5C300CEA1B4 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F758844018ABF5C300CEA1B4 /* InfoPlist.strings */ = {
@@ -419,48 +311,6 @@
 			};
 			name = Release;
 		};
-		F758846D18ABF5C300CEA1B4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SlidingCell.app/SlidingCell";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SlidingCell/SlidingCell-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "SlidingCellTests/SlidingCellTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		F758846E18ABF5C300CEA1B4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SlidingCell.app/SlidingCell";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SlidingCell/SlidingCell-Prefix.pch";
-				INFOPLIST_FILE = "SlidingCellTests/SlidingCellTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -478,15 +328,6 @@
 			buildConfigurations = (
 				F758846A18ABF5C300CEA1B4 /* Debug */,
 				F758846B18ABF5C300CEA1B4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F758846C18ABF5C300CEA1B4 /* Build configuration list for PBXNativeTarget "SlidingCellTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F758846D18ABF5C300CEA1B4 /* Debug */,
-				F758846E18ABF5C300CEA1B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
